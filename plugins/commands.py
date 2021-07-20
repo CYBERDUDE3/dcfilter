@@ -17,12 +17,12 @@ async def start(client, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("HELP", callback_data="help_data"),
-                        InlineKeyboardButton("ABOUT", callback_data="about_data"),
+                        InlineKeyboardButton("✨HELP✨", callback_data="help_data"),
+                        InlineKeyboardButton("✨ABOUT✨", callback_data="about_data"),
                     ],
                     [
                         InlineKeyboardButton(
-                            "⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/Trolldcompany")
+                            "⭕️DEV CHANNEL⭕️", url="https://t.me/M_STER_TECH")
                     ]
                 ]
             ),
@@ -40,12 +40,12 @@ async def help(client, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("BACK", callback_data="start_data"),
-                        InlineKeyboardButton("ABOUT", callback_data="about_data"),
+                        InlineKeyboardButton("🚶🏻BACK🚶", callback_data="start_data"),
+                        InlineKeyboardButton("✨ABOUT✨", callback_data="about_data"),
                     ],
                     [
                         InlineKeyboardButton(
-                            "⭕️ SUPPORT ⭕️", url="https://t.me/n_a_c_bot_developers")
+                            "⭕️HOW TO MAKE OWNE BOT⭕️", url="https://youtu.be/HvXBQoHrh04")
                     ]
                 ]
             ),
@@ -63,12 +63,12 @@ async def about(client, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("BACK", callback_data="help_data"),
-                        InlineKeyboardButton("START", callback_data="start_data"),
+                        InlineKeyboardButton("🚶🏻BACK🚶🏻", callback_data="help_data"),
+                        InlineKeyboardButton("✨START✨", callback_data="start_data"),
                     ],
                     [
                         InlineKeyboardButton(
-                            "SOURCE CODE", url="https://github.com/nikhileashy/dcfilter")
+                            "🌈SUBSCRIBE MY CHANNWL🌈", url="https://www.youtube.com/channel/UC4Eorw1OaILIuLgdIBdNE0w")
                     ]
                 ]
             ),
