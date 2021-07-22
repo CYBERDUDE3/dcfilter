@@ -1,5 +1,5 @@
 {
-    "name": "Auto Filter Bot",
+    "name": "Auto Filter Botv4",
     "description": "Kind of a filter bot where you don't have to add filters manually.",
     "logo": "https://telegra.ph/file/71aaa621508cd696ab538.jpg",
     "keywords": [
@@ -8,9 +8,9 @@
         "Telegram Bot",
         "TroJanzHEX"
     ],
-    "website": "https://TroJanzHEX.me",
-    "repository": "https://github.com/TroJanzHEX/Auto-Filter-Bot",
-    "success_url": "https://telegram.dog/TroJanzHEX",
+    "website": "https://github.com/CYBERDUDE3",
+    "repository": "https://github.com/CYBERDUDE3/dcfilter",
+    "success_url": "https://telegram.dog/M_STER_TECH",
     "env": {
         "TG_BOT_TOKEN": {
             "description": "You Telegram Bot Token from @BotFather",
@@ -25,7 +25,7 @@
             "value": ""
         },
         "TG_USER_SESSION": {
-            "description": "A pyrogram user session string. Generate from https://repl.it/@SpEcHiDe/GenerateStringSession",
+            "description": "A pyrogram user session string",
             "value": ""
         },
         "MAINCHANNEL_ID": {
